@@ -1,5 +1,7 @@
 """Some functions to compute errors."""
 
+
+
 def mean_abs_error(e):
     """Mean, absolute error."""
     v = 0
@@ -21,3 +23,5 @@ def max_abs_error(e) :
         if abs(e[i]) > v:
             v = abs(e[i])
     return v
+
+
